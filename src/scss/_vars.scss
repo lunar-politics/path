@@ -1,0 +1,19 @@
+// если вы хотите использовать sass-переменные - удалите root
+// colors
+:root {
+  // base
+  --font-family: "Geologica", sans-serif;
+  --content-width: 1136px;
+  --container-offset: 15px;
+  --container-width: calc(var(--content-width) + (var(--container-offset) * 2));
+  --main-border: 16px;
+
+  // colors
+  --white-color: #fff;
+  --bg-color: #EFF5F9;
+  --text-color: #1C2B36;
+  --primary-color: #2179CC;
+  --secondary-color: #7B8FA3;
+  --separator-color: #DBE1E6;
+  --red-color: #FD5D60;
+}
